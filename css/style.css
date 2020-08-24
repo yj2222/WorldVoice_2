@@ -361,13 +361,13 @@ header{
   height: 120px;
 }
 
-.mainMiddle__9 p{
+#before-after-modal--open{
   margin-bottom: 50px;
   font-size: 16px;
   color: rgb(110, 110, 255);
 }
 
-.mainMiddle__9 p:hover{
+#before-after-modal--open:hover{
   opacity: 0.5;
   cursor: pointer;
 }
@@ -400,6 +400,33 @@ header{
   padding: 30px 10px;
   color: white;
   border: 1px solid rgb(210, 210, 210);
+}
+
+.before-after-modal{
+  position: fixed;
+  top: 0;
+  height: 100vh;
+  width: 100vw;
+  z-index: 1000;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.before-after-modal--bg{
+  /* background-color: rgba(0, 0, 0, 0.5); */
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.before-after-modal__content{
+  background-color: white;
+  position: absolute;
+  top: 50%;
+  color: black;
+}
+
+.before-after-modal__content p{
+  color: black;
 }
 
 /* footer */

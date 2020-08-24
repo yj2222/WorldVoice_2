@@ -32,4 +32,16 @@ $(function(){
     }
   )
 
+  var modal_open = $("#before-after-modal--open");
+  $(modal_open).on('click',function(){
+    var item_number = $(this).parent().attr("class").split(/\s+/)[0];
+    console.log(item_number)
+    // modal.removeClass("display-none");
+    return false;
+  });
+  // $('.js-modal-close').on('click',function(){
+    // modal.addClass("display-none");
+    // return false;
+  // });
+
 })
