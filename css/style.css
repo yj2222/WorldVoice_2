@@ -361,17 +361,6 @@ header{
   height: 120px;
 }
 
-#before-after-modal--open{
-  margin-bottom: 50px;
-  font-size: 16px;
-  color: rgb(110, 110, 255);
-}
-
-#before-after-modal--open:hover{
-  opacity: 0.5;
-  cursor: pointer;
-}
-
 .iframe-box {
   position: relative;
   width: 100%;
@@ -402,7 +391,22 @@ header{
   border: 1px solid rgb(210, 210, 210);
 }
 
-.before-after-modal{
+.beforeAfterModal--open, .beforeAfterModal--close{
+  margin-bottom: 50px;
+  font-size: 16px;
+  color: rgb(110, 110, 255);
+}
+
+.beforeAfterModal--open:hover, .beforeAfterModal--close:hover{
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.display-none{
+  display: none;
+}
+
+.beforeAfterModal{
   position: fixed;
   top: 0;
   height: 100vh;
@@ -411,22 +415,33 @@ header{
   background-color: rgba(0, 0, 0, 0.5);
 }
 
-.before-after-modal--bg{
+.beforeAfterModal--bg{
   /* background-color: rgba(0, 0, 0, 0.5); */
   height: 100%;
   width: 100%;
   position: relative;
 }
 
-.before-after-modal__content{
-  background-color: white;
+.beforeAfterModal__content{
   position: absolute;
   top: 50%;
-  color: black;
+  left: 50%;
+  background-color: white;
+  max-width: 600px;
+  max-height: 600px;
+  padding: 30px 10px 0;
+  transform: translate(-50%, -50%);
+  overflow: scroll;
 }
 
-.before-after-modal__content p{
+.beforeAfterModal__content img{
+  width: 100%;
+
+}
+
+.beforeAfterModal__content p:nth-child(1){
   color: black;
+  line-height: 40px;
 }
 
 /* footer */

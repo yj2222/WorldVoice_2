@@ -32,16 +32,19 @@ $(function(){
     }
   )
 
-  var modal_open = $("#before-after-modal--open");
+  var modal_open = $(".beforeAfterModal--open");
+  var modal_close = $(".beforeAfterModal--close");
+  var item_number;
+
   $(modal_open).on('click',function(){
-    var item_number = $(this).parent().attr("class").split(/\s+/)[0];
+    item_number = $("." + ($(this).parent().attr("class").split(/\s+/)[0]) + "--modal");
     console.log(item_number)
-    // modal.removeClass("display-none");
+    item_number.removeClass("display-none");
     return false;
   });
-  // $('.js-modal-close').on('click',function(){
-    // modal.addClass("display-none");
-    // return false;
-  // });
+  $(modal_close).on('click',function(){
+    item_number.addClass("display-none");
+    return false;
+  });
 
 })
