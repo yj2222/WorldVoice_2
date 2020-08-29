@@ -427,7 +427,7 @@ header{
   top: 50%;
   left: 50%;
   background-color: white;
-  max-width: 600px;
+  width: 90%;
   max-height: 600px;
   padding: 30px 10px 0;
   transform: translate(-50%, -50%);
@@ -439,10 +439,12 @@ header{
 
 }
 
-.beforeAfterModal__content p:nth-child(1){
-  color: black;
-  line-height: 40px;
+.beforeAfterModal__content p:nth-of-type(1){
+  color: color;
+  line-height: 50px;
 }
+
+
 
 /* footer */
 footer{
