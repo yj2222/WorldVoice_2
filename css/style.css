@@ -430,8 +430,14 @@ header{
   width: 90%;
   max-height: 600px;
   padding: 30px 10px 0;
-  transform: translate(-50%, -50%);
   overflow: scroll;
+  opacity: 0;
+  transition: 1s;
+}
+
+.modalContent-animetion{
+  opacity: 1;
+  transform: translate(-50%, -50%);
 }
 
 .beforeAfterModal__content img{

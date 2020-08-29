@@ -40,10 +40,15 @@ $(function(){
     item_number = $("." + ($(this).parent().attr("class").split(/\s+/)[0]) + "--modal");
     console.log(item_number)
     item_number.removeClass("display-none");
+    
+    setTimeout(function(){
+      item_number.children(".beforeAfterModal__content").addClass("modalContent-animetion");
+    },500);
     return false;
   });
   $(modal_close).on('click',function(){
     item_number.addClass("display-none");
+    item_number.children(".beforeAfterModal__content").removeClass("modalContent-animetion");
     return false;
   });
 
