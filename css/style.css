@@ -8,7 +8,7 @@ h2{
   font-family: 'Courgette', cursive;
   font-size: 40px;
   text-align: center;
-  padding: 100px 0 50px 0;
+  padding: 50px 0 50px 0;
 }
 
 a:hover{
@@ -395,22 +395,22 @@ header{
   border: 1px solid rgb(210, 210, 210);
 }
 
-.beforeAfterModal--open, .beforeAfterModal--close{
-  margin-bottom: 50px;
+/* openModal closeModal */
+.openModal, .closeModal{
   font-size: 16px;
-  color: rgb(110, 110, 255);
 }
 
-.beforeAfterModal--open:hover, .beforeAfterModal--close:hover{
-  opacity: 0.5;
+.openModal:hover, .closeModal:hover{
+  opacity: 0.7;
   cursor: pointer;
 }
 
+/* itemsModal */
 .display-none{
   display: none;
 }
 
-.beforeAfterModal{
+.itemsModal{
   position: fixed;
   top: 0;
   height: 100vh;
@@ -419,21 +419,20 @@ header{
   background-color: rgba(0, 0, 0, 0.5);
 }
 
-.beforeAfterModal--bg{
-  /* background-color: rgba(0, 0, 0, 0.5); */
+.itemsModal--bg{
   height: 100%;
   width: 100%;
   position: relative;
 }
 
-.beforeAfterModal__content{
+.itemsModal__content{
   position: absolute;
   top: 50%;
   left: 50%;
   background-color: white;
   width: 80%;
   max-height: 600px;
-  padding: 30px 10px 0;
+  /* padding: 30px 10px 0; */
   overflow: scroll;
   opacity: 0;
   transition: 1s;
@@ -444,15 +443,25 @@ header{
   transform: translate(-50%, -50%);
 }
 
-.beforeAfterModal__content img{
+.itemsModal__content img{
   width: 100%;
-
 }
 
-.beforeAfterModal__content p:nth-of-type(1){
-  color: color;
-  line-height: 50px;
+.itemsModal__content p{
+  font-size: 16px;
 }
+
+.itemsModal__content--header > p{
+  background-color: brown;
+  font-size: 14px;
+  height: 100%;
+  transform: translate(1px, 5px) rotate(-30deg); 
+}
+
+.itemsModal__content--header h3{
+  height: 100%;
+}
+
 
 /* mainMiddle__10 */
 
@@ -476,19 +485,23 @@ header{
   background: linear-gradient(transparent 60%, pink 60%);
 }
 
-[class*="mainMiddle__10__item"]{
-  max-width: 700px;
+/* [class*="mainMiddle__10__item"]{
   margin-bottom: 50px;
+} */
+
+[class*="mainMiddle__10__item"] > img{
+  max-width: 600px;
   transition: 0.3s;
 }
 
-[class*="mainMiddle__10__item"]:hover{
+[class*="mainMiddle__10__item"] > img:hover{
   opacity: 0.7;
   transform: translateX(-30px);
 }
 
-[class*="mainMiddle__10__item"] > img{
-  width: 100%;
+[class*="itemsModal__content--item"] > p{
+  font-size: 16px;
+  line-height: 25px;  
 }
 
 /* footer */

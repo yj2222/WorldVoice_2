@@ -32,8 +32,8 @@ $(function(){
     }
   )
 
-  var modal_open = $(".beforeAfterModal--open");
-  var modal_close = $(".beforeAfterModal--close");
+  var modal_open = $(".openModal");
+  var modal_close = $(".closeModal");
   var item_number;
 
   $(modal_open).on('click',function(){
@@ -42,14 +42,15 @@ $(function(){
     item_number.removeClass("display-none");
     
     setTimeout(function(){
-      item_number.children(".beforeAfterModal__content").addClass("modalContent-animetion");
+      item_number.children(".itemsModal__content").addClass("modalContent-animetion");
     },500);
     return false;
   });
   $(modal_close).on('click',function(){
     item_number.addClass("display-none");
-    item_number.children(".beforeAfterModal__content").removeClass("modalContent-animetion");
+    item_number.children(".itemsModal__content").removeClass("modalContent-animetion");
     return false;
   });
+
 
 })

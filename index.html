@@ -33,17 +33,20 @@
   </head>
   <body>
 
+    <!-- ヘッダー -->
     <header class="d-flex justify-content-between px-5">
+      <!-- ロゴ -->
       <div class="header__left">
         <img src="image/logo.png" alt="">
       </div>
+      <!-- ヘッダーメニュー -->
       <div class="header__right">
         <ul class="d-flex">
           <li>
             <a href="">初めての方へ</a>
           </li>
           <li>
-            <a href="">講師紹介</a>
+            <a href="#partners">講師紹介</a>
           </li>
           <li>
             <a href="">お客様の声</a>
@@ -60,7 +63,7 @@
         </ul>
       </div>
     </header>
-
+    <!-- メインページ、トップ -->
     <div class="mainTop">
       <div class="mainTop__text d-flex justify-content-center">
         <p class="feedout">自分史上、</p>
@@ -69,13 +72,14 @@
         <p class="feedout">の歌声に。</p>
       </div>
     </div>
-
+    <!-- メインページ、真ん中 -->
     <div class="mainMiddle">
-
+      <!-- スクールの概要 -->
       <h2>〜About Us〜</h2>
       <div class="mainMiddle__1 text-center mb-5">
         <p>私たちは「<strong>声の超専門家集団</strong>」です。</p>
       </div>
+      <!-- スクールのメッセージ -->
       <div class="mainMiddle__2 mx-auto">
         <div class="mainMiddle__2__text">
           <h1><strong>大きな壁</strong>にぶち当たっているシンガーのみなさん、</h1>
@@ -92,24 +96,21 @@
         <h1 class="pb-3">諦める必要はありません。<strong>それはまだ手に入れる事ができます。</strong></h1>
         <a href="#resson-movie">「最高の歌声を手に入れる」レッスン動画を見にいく</a>
       </div>
-
+      <!-- スクールの特徴 -->
       <div class="mainMiddle__5 text-center pb-5">
         <h2>〜For What Reason ?〜</h2>
         <p>なぜ、私たちが、</p>
         <p>「<strong>世界レベルの歌唱力が身につく最高のアーティストスクール</strong>」</p>
         <p>と呼ばれるのか？それは・・・</p>
       </div>
-
       <div class="mainMiddle__6">
         <div class="mainMiddle__6__content">
           <div id="mainMiddle__6__content--main2" class="main-cicle-hover-action1 main-cicle-common">
             <p>今すぐ、<br>「洋楽ボイス理論」<br>を見にいく</p>
           </div>
           <div id="mainMiddle__6__content--main1" class="main-cicle-common">
-            <!-- <p>WV独自の<br>洋楽ボイス理論</p> -->
             <a href="#resson-movie"><p>WV独自の<br>洋楽ボイス理論</p></a>
           </div>
-          
           <div class="mainMiddle__6__content--sub1 sub-circle-common">
             <p>ドイツ<br>唱法</p>
           </div>
@@ -133,13 +134,12 @@
           </div>
         </div>
       </div>
-
       <div class="mainMiddle__7 text-center">
         <p>いくつもの歌唱法、数々の理論を組み合わせ応用したものである、</p>
         <p>WORLD VOICE <strong>独自のボーカル理論「洋楽ボイス理論」</strong>があるから。</p>
         <a href="">「洋楽ボイス理論」の詳細を知りたい方はこちら</a>
       </div>
-
+      <!-- レッスン動画 -->
       <div class="mainMiddle__8 text-center">
         <h2>~ Track Records ~</h2>
         <p>私たちには<strong>多くの実績があります、</strong></p>
@@ -147,157 +147,162 @@
         <p>↓↓↓</p>
       </div>
       <div class="mainMiddle__9 d-flex flex-wrap" id="resson-movie">
-
+        <!-- レッスン動画、コンテンツ1 -->
         <div class="mainMiddle__9__item1 col-6 text-center">
           <h3 class="col-10 mx-auto">私の戦いはここで終わったんじゃなく、ようやく始まったんだ!!</h3>
-          <p class="beforeAfterModal--open">さらに詳しく ＞＞</p>
+          <p class="openModal text-primary mb-3">Lesson's Report >></p>
           <div class="iframe-box">
             <iframe src="https://www.youtube.com/embed/LdjInepyAPU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
         </div>
-        <div class="beforeAfterModal mainMiddle__9__item1--modal display-none">
-          <div class="beforeAfterModal--close beforeAfterModal--bg"></div>
-          <div class="beforeAfterModal__content px-3">
-            <h3>私の戦いはここで終わったんじゃなく、ようやく始まったんだ!!</h3>
+        <!-- レッスン動画、コンテンツ1のモーダル -->
+        <div class="itemsModal mainMiddle__9__item1--modal display-none">
+          <div class="closeModal itemsModal--bg"></div>
+          <div class="itemsModal__content px-1">
+            <div class="itemsModal__content--header d-flex">
+              <p class="text-nowrap py-1 pr-2 text-white mt-3">・表声ベース</p>
+              <h3 class="py-3 px-1">私の戦いはここで終わったんじゃなく、ようやく始まったんだ!!</h3>
+            </div>
             <img src="image/wv_image_modal_1.png" alt="">
-            <p class="mx-auto py-5">
-              裏声になると弱々しくなってしまうので、いけるところまで地声で行こう…でも最後には疲れてしまい裏声になってしまう、ということで悩んでいた松本 藍さん。<br>
-              悩みがすべてとれたらハッピー★☆でもそんなことができるの？？と臨んだセッションでした…<br>
-              今では調子がいいときに感じていた「音が抜ける感じ」が安定して得られるようになり、マジックみたいと喜んでいました♫
-            </p>
-            <p class="beforeAfterModal--close mx-auto text-right">× 閉じる</p>
+            <h4 class="bg-dark text-white pl-3 py-2 mt-3 h4">Lesson's Report</h4>
+            <p class="pt-3">裏声になると弱々しくなってしまうので、いけるところまで地声で行こう…でも最後には疲れてしまい裏声になってしまう、ということで悩んでいた松本 藍さん。</p>
+            <p class="pt-3">悩みがすべてとれたらハッピー★☆でもそんなことができるの？？と臨んだセッションでした…</p>
+            <p class="pt-3">今では調子がいいときに感じていた「音が抜ける感じ」が安定して得られるようになり、マジックみたいと喜んでいました♫</p>
+            <p class="closeModal mt-5 mb-3 text-right text-primary">× 閉じる</p>
           </div>
         </div>
-
-
-
+        <!-- レッスン動画、コンテンツ2 -->
         <div class="mainMiddle__9__item2 col-6 text-center">
           <h3 class="col-10 mx-auto">体感は地声じゃない…でも、地声に聞こえるからすごい…!!</h3>
-          <p class="beforeAfterModal--open">さらに詳しく ＞＞</p>
+          <p class="openModal text-primary mb-3">Lesson's Report >></p>
           <div class="iframe-box">
             <iframe src="https://www.youtube.com/embed/6LFVCJYlyqU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
         </div>
-        <div class="beforeAfterModal mainMiddle__9__item2--modal display-none">
-          <div class="beforeAfterModal--close beforeAfterModal--bg"></div>
-          <div class="beforeAfterModal__content px-3">
-            <h3>体感は地声じゃない…でも、地声に聞こえるからすごい…!!</h3>
+        <!-- レッスン動画、コンテンツ2のモーダル -->
+        <div class="itemsModal mainMiddle__9__item2--modal display-none">
+          <div class="closeModal itemsModal--bg"></div>
+          <div class="itemsModal__content px-1">
+            <div class="itemsModal__content--header d-flex">
+              <p class="text-nowrap py-1 pr-2 text-white mt-3">・声楽</p>
+              <h3 class="py-3 px-1">体感は地声じゃない…でも、地声に聞こえるからすごい…!!</h3>
+            </div>
             <img src="image/wv_image_modal_2.png" alt="">
-            <p class="mx-auto py-5">
-              高校、大学とクラシック声楽を中心に学んできた千布ゆきなさん。<br>
-              POPS歌唱が掴めずずっと悩んでいました。<br>
-              声がひっくり返ることが多く、声楽発声になるか地声は発声だと喉の疲労がすごく辛い。。<br>
-              喉の疲労をなくし、楽な発声を手に入れるために様々なエクササイズに取り組んだ結果、正しい発声と間違った発声が自分でもわかってきて、裏声ベース発声の方向性が掴めてきたようです。<br>
-              まだまだ不安定だけど、ダイナミックに出せるようになってきて、「私でもやればできる!」と感じられ、楽しく練習できています。<br>
-              新しい私に出会えるのがワクワクしています♫ <br>
-            </p>
-            <p class="beforeAfterModal--close mx-auto text-right">× 閉じる</p>
+            <h4 class="bg-dark text-white pl-3 py-2 mt-3 h4">Lesson's Report</h4>
+            <p class="pt-3">高校、大学とクラシック声楽を中心に学んできた千布ゆきなさん。</p>
+            <p class="pt-3">POPS歌唱が掴めずずっと悩んでいました。</p>
+            <p class="pt-3">声がひっくり返ることが多く、声楽発声になるか地声は発声だと喉の疲労がすごく辛い。。</p>
+            <p class="pt-3">喉の疲労をなくし、楽な発声を手に入れるために様々なエクササイズに取り組んだ結果、正しい発声と間違った発声が自分でもわかってきて、裏声ベース発声の方向性が掴めてきたようです。</p>
+            <p class="pt-3">まだまだ不安定だけど、ダイナミックに出せるようになってきて、「私でもやればできる!」と感じられ、楽しく練習できています。</p>
+            <p class="pt-3">新しい私に出会えるのがワクワクしています♫ </p>
+            <p class="closeModal mt-5 mb-3 text-right text-primary">× 閉じる</p>
           </div>
         </div>
-
-
-
+        <!-- レッスン動画、コンテンツ3 -->
         <div class="mainMiddle__9__item3 col-6 text-center">
           <h3 class="col-10 mx-auto">絶望感…歌うことが嫌だった…今では歌うことが幸せです。</h3>
-          <p class="beforeAfterModal--open">さらに詳しく ＞＞</p>
+          <p class="openModal text-primary mb-3">Lesson's Report >></p>
           <div class="iframe-box">
             <iframe src="https://www.youtube.com/embed/x8N0jEmLmiQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
         </div>
-        <div class="beforeAfterModal mainMiddle__9__item3--modal display-none">
-          <div class="beforeAfterModal--close beforeAfterModal--bg"></div>
-          <div class="beforeAfterModal__content px-3">
-            <h3>絶望感…歌うことが嫌だった…今では歌うことが幸せです。</h3>
+        <!-- レッスン動画、コンテンツ3のモーダル -->
+        <div class="itemsModal mainMiddle__9__item3--modal display-none">
+          <div class="closeModal itemsModal--bg"></div>
+          <div class="itemsModal__content px-1">
+            <div class="itemsModal__content--header d-flex">
+              <p class="text-nowrap py-1 pr-2 text-white mt-3 d-flex"><span>・</span>地声型ベース<br>分離型</p>
+              <h3 class="py-3 px-1">絶望感…歌うことが嫌だった…今では歌うことが幸せです。</h3>
+            </div>
             <img src="image/wv_image_modal_3.png" alt="">
-            <p class="mx-auto py-5">
-              名古屋から状況してきた山崎 桃香さん。<br>
-              地声型ベース分離型から喉の調整を重ね、現在は表声ベースまで到達♫<br>
-              以前感じていた絶望感や、歌うことが嫌になってしまうことは今はなくなってきた様子。<br>
-              歌えるようになってきた中での現在の悩みは<br>
-              &nbsp;&nbsp;&nbsp;・現在の状態でも張り上げないと裏声になってしまう<br>
-              &nbsp;&nbsp;&nbsp;・張り上げると苦しくなる<br>
-              といったもの。<br>
-              喉の調整を加えて表声ベースから裏声ベースへ移行したところ、「嫌なものがなく、なにも感じない…」という嬉しい状態になっていきました✨<br>
-            </p>
-            <p class="beforeAfterModal--close mx-auto text-right">× 閉じる</p>
+            <h4 class="bg-dark text-white pl-3 py-2 mt-3 h4">Lesson's Report</h4>
+            <p class="pt-3">名古屋から上京してきた山崎 桃香さん。</p>
+            <p class="pt-3">地声型ベース分離型から喉の調整を重ね、現在は表声ベースまで到達♫</p>
+            <p class="pt-3">以前感じていた絶望感や、歌うことが嫌になってしまうことは今はなくなってきた様子。</p>
+            <p class="pt-3">歌えるようになってきた中での現在の悩みは</p>
+            <p class="pt-3 pl-5">・現在の状態でも張り上げないと裏声になってしまう</p>
+            <p class="pt-3 pl-5">・張り上げると苦しくなる</p>
+            <p class="pt-3">といったもの。</p>
+            <p class="pt-3">喉の調整を加えて表声ベースから裏声ベースへ移行したところ、「嫌なものがなく、なにも感じない…」という嬉しい状態になっていきました✨</p>
+            <p class="closeModal mt-5 mb-3 text-right text-primary">× 閉じる</p>
           </div>
         </div>
-
-
-
+        <!-- レッスン動画、コンテンツ4 -->
         <div class="mainMiddle__9__item4 col-6 text-center">
           <h3 class="col-10 mx-auto">え？なにしたんですか??マジックみた〜い!!</h3>
-          <p class="beforeAfterModal--open">さらに詳しく ＞＞</p>
+          <p class="openModal text-primary mb-3">Lesson's Report >></p>
           <div class="iframe-box">
             <iframe src="https://www.youtube.com/embed/NPyI7qO6lS8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
         </div>
-        <div class="beforeAfterModal mainMiddle__9__item4--modal display-none">
-          <div class="beforeAfterModal--close beforeAfterModal--bg"></div>
-          <div class="beforeAfterModal__content px-3">
-            <h3>え？なにしたんですか??マジックみた〜い!!</h3>
+        <!-- レッスン動画、コンテンツ4のモーダル -->
+        <div class="itemsModal mainMiddle__9__item4--modal display-none">
+          <div class="closeModal itemsModal--bg"></div>
+          <div class="itemsModal__content px-1">
+            <div class="itemsModal__content--header d-flex">
+              <p class="text-nowrap py-1 pr-2 text-white mt-3">・表声ベース</p>
+              <h3 class="py-3 px-1">え？なにしたんですか??マジックみた〜い!!</h3>
+            </div>
             <img src="image/wv_image_modal_4.png" alt="">
-            <p class="mx-auto py-5">
-              裏声になると弱々しくなってしまうので、いけるところまで地声で行こう…でも最後には疲れてしまい裏声になってしまう、ということで悩んでいた松本 藍さん。<br>
-              悩みがすべてとれたらハッピー★☆でもそんなことができるの？？と臨んだセッションでした…<br>
-              今では調子がいいときに感じていた「音が抜ける感じ」が安定して得られるようになり、マジックみたいと喜んでいました♫<br>
-            </p>
-            <p class="beforeAfterModal--close mx-auto text-right">× 閉じる</p>
+            <h4 class="bg-dark text-white pl-3 py-2 mt-3 h4">Lesson's Report</h4>
+            <p class="pt-3">裏声になると弱々しくなってしまうので、いけるところまで地声で行こう…でも最後には疲れてしまい裏声になってしまう、ということで悩んでいた松本 藍さん。</p>
+            <p class="pt-3">悩みがすべてとれたらハッピー★☆でもそんなことができるの？？と臨んだセッションでした…</p>
+            <p class="pt-3">今では調子がいいときに感じていた「音が抜ける感じ」が安定して得られるようになり、マジックみたいと喜んでいました♫</p>
+            <p class="closeModal mt-5 mb-3 text-right text-primary">× 閉じる</p>
           </div>
         </div>
-        
-
-
-        <div class="mainMiddle__9__item5 col-6 text-center">
+        <!-- レッスン動画、コンテンツ5 -->
+        <!-- <div class="mainMiddle__9__item5 col-6 text-center">
           <h3 class="col-10 mx-auto">25年越しに叶った私の願い</h3>
-          <p class="beforeAfterModal--open">さらに詳しく ＞＞</p>
+          <p class="openModal text-primary mb-3">Lesson's Report >></p>
           <div class="iframe-box">
             <iframe src="https://www.youtube.com/embed/7LU5d_V7uTA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
-        </div>
-        <div class="beforeAfterModal mainMiddle__9__item5--modal display-none">
-          <div class="beforeAfterModal--close beforeAfterModal--bg"></div>
-          <div class="beforeAfterModal__content px-3">
-            <h3>25年越しに叶った私の願い</h3>
+        </div> -->
+        <!-- レッスン動画、コンテンツ5のモーダル -->
+        <!-- <div class="itemsModal mainMiddle__9__item5--modal display-none">
+          <div class="closeModal itemsModal--bg"></div>
+          <div class="itemsModal__content px-1">
+            <div class="itemsModal__content--header d-flex">
+              <p class="text-nowrap py-1 pr-2 text-white mt-3">・表声ベース</p>
+              <h3 class="py-3 px-1">25年越しに叶った私の願い</h3>
+            </div>
             <img src="image/wv_image_modal_5.png" alt="">
-            <p class="mx-auto py-5">
-              洋楽アーティストのような声を手に入れたい…そんな風に思い歌い始めた吉田尚世さん。<br>
-              高音のときは緊張したり辛くなってしまう…<br>
-              「できれば1番で歌が終わったらいいのに…」<br>
-              そんな風に思っていました。<br>
-              悩んだいた中でWORLD VOICEに出会い、発声やリズムを改善していき、見事裏声ベース発声を習得♫<br>
-              さらに表現の向上、知識を深めながら自分と同じように悩むシンガーさんの力になるべくインターン講師の道へ進むのでした♫<br>
-            </p>
-            <p class="beforeAfterModal--close mx-auto text-right">× 閉じる</p>
+            <h4 class="bg-dark text-white pl-3 py-2 mt-3 h4">Lesson's Report</h4>
+            <p class="pt-3">洋楽アーティストのような声を手に入れたい…そんな風に思い歌い始めた吉田尚世さん。</p>
+            <p class="pt-3">高音のときは緊張したり辛くなってしまう…「できれば1番で歌が終わったらいいのに…」そんな風に思っていました。</p>
+            <p class="pt-3">悩んだいた中でWORLD VOICEに出会い、発声やリズムを改善していき、見事裏声ベース発声を習得♫</p>
+            <p class="pt-3">さらに表現の向上、知識を深めながら自分と同じように悩むシンガーさんの力になるべくインターン講師の道へ進むのでした♫</p>
+            <p class="closeModal mt-5 mb-3 text-right text-primary">× 閉じる</p>
           </div>
-        </div>
-
-
-
-        <div class="mainMiddle__9__item6 col-6 text-center">
+        </div> -->
+        <!-- レッスン動画、コンテンツ6 -->
+        <!-- <div class="mainMiddle__9__item6 col-6 text-center">
           <h3 class="col-10 mx-auto">出なかった高音が出るようになった!!すごい!!</h3>
-          <p class="beforeAfterModal--open">さらに詳しく ＞＞</p>
+          <p class="openModal text-primary mb-3">Lesson's Report >></p>
           <div class="iframe-box">
             <iframe src="https://www.youtube.com/embed/Ywmkw1_BXsQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
-        </div>
-        <div class="beforeAfterModal mainMiddle__9__item6--modal display-none">
-          <div class="beforeAfterModal--close beforeAfterModal--bg"></div>
-          <div class="beforeAfterModal__content px-3">
-            <h3>出なかった高音が出るようになった!!すごい!!</h3>
+        </div> -->
+        <!-- レッスン動画、コンテンツ6のモーダル -->
+        <!-- <div class="itemsModal mainMiddle__9__item6--modal display-none">
+          <div class="closeModal itemsModal--bg"></div>
+          <div class="itemsModal__content px-1">
+            <div class="itemsModal__content--header d-flex">
+              <p class="text-nowrap py-1 pr-2 text-white mt-3">・ヘッドボイス</p>
+              <h3 class="py-3 px-1">出なかった高音が出るようになった!!すごい!!</h3>
+            </div>
             <img src="image/wv_image_modal_6.png" alt="">
-            <p class="mx-auto py-5">
-              2019年に入会後、数ヶ月で裏声ベース発声へ転換した吉田めぐみさん。ライブでも楽しく歌っている様子が動画からも伺えます。<br>
-              しかし1年後、再び高音が出しづらくなることに…<br>
-              原因を究明して再度調整に臨むと、今まで出なかった高音もでるようになり、さらに変化を感じたようです♫<br>
-            </p>
-            <p class="beforeAfterModal--close mx-auto text-right">× 閉じる</p>
+            <h4 class="bg-dark text-white pl-3 py-2 mt-3 h4">Lesson's Report</h4>
+            <p class="pt-3">2019年に入会後、数ヶ月で裏声ベース発声へ転換した吉田めぐみさん。ライブでも楽しく歌っている様子が動画からも伺えます。</p>
+            <p class="pt-3">しかし1年後、再び高音が出しづらくなることに…</p>
+            <p class="pt-3">原因を究明して再度調整に臨むと、今まで出なかった高音もでるようになり、さらに変化を感じたようです♫</p>
+            <p class="closeModal mt-5 mb-3 text-right text-primary">× 閉じる</p>
           </div>
-        </div>
+        </div> -->
       </div>
-
-
-      <div class="mainMiddle__10 text-center">
+      <!-- 講師紹介 -->
+      <div class="mainMiddle__10 text-center" id="partners">
         <h2>~ Partners ~</h2>
         <div class="col-10 mx-auto mainMiddle__10__discription pb-5">
           <p>WORLD VOICEには、<strong>先生と生徒という概念は存在しません</strong>。</p>
@@ -306,27 +311,549 @@
           <p>歌や音楽だけの繋がりではなく、何でも相談でき、何でも言い合える<strong>人としての強い繋がり</strong>を、ボイスパートナーは全員望んでいます。</p>
         </div>
         
-        <div class="mainMiddle__10__item1 mx-auto px-1">
-          <img src="image/hiyama.jpg" alt="">
+        <!-- 講師紹介、プロフィール1 -->
+        <div class="mainMiddle__10__item1 mx-auto px-1 mb-3" id="partner1">
+          <img src="image/hiyama.jpg" alt="" class="openModal">
         </div>
-        <div class="mainMiddle__10__item2 mx-auto px-1">
-          <img src="image/maeda.jpg" alt="">
+        <!-- 講師紹介、プロフィール1、モーダル -->
+        <div id="" class="itemsModal mainMiddle__10__item1--modal text-left display-none">
+          <div class="itemsModal--bg closeModal"></div>
+          <div class="itemsModal__content px-1 ">
+            <h2>~ Profile ~</h2>
+            <img src="image/hiyama.jpg" alt="">
+            <div class="itemsModal__content--item1 mt-3">
+              <h3 class="text-white px-3 py-2 font-weight-bold h4 bg-dark">Profile</h3>
+              <p class="px-3 pt-3">
+                1998年音楽活動開始、2005年ボイスプロデューサーとして活動開始。愛弟子8名。
+              </p>
+              <p class="px-3 pt-3">
+                福原美穂を輩出したボイストレーナーの一番弟子としてボイス、
+                ボーカルレッスンを受け技術を伝授、その後、声楽家の恩師2名へ師事。
+              </p>
+              <p class="px-3 pt-3">
+                喉、体、呼気、技術調整方法、感情表現論とボイストレーニングの教授法を学ぶ。
+              </p>
+              <p class="px-3 pt-3">
+                1998年から及ぶ自身の研究と、恩師たちの選び抜かれた理論を組み合わせ構築された、
+                世界レベルで通用する唯一無二のボーカル理論、「洋楽ボイス理論」を開発
+              </p>
+              <p class="px-3 pt-3">
+                CD総売り上げ１億枚を超えるスーパーボーイズグループ「Backstreet Boys」のプロデューサー、
+                TOMI氏より、無名シンガー養成の依頼を受け、2010年、某R&BシンガーM氏の専属ボイスコーチ就任。
+              </p>
+              <p class="px-3 pt-3">
+                現在、プロシンガー、メジャーアーティスト、
+                海外アーティスト（アメリカ、イギリス、スロバキア、韓国、フィリピンetc）、 
+                タレント、声優、大手プロダクション所属アーティスト、声楽家、現役ボイストレーナーなどに、
+                「洋楽ボイス理論」を提供。
+              </p>
+              <p class="px-3 pt-3">
+                20年に及ぶの研究の末、洋楽ボイス理論を開発。現在も尚研究中であり、内容を更新中。
+              </p>
+            </div>
+            <div class="itemsModal__content--item2 mt-3">
+              <h3 class="text-white px-3 py-2 font-weight-bold h4 bg-dark">Voice Producerとは？</h3>
+              <p class="px-3 pt-3">
+                ボイスプロデューサーとは、発声技術にとどまらず、滑舌、体のケア、アーティスト像、方向性、
+                カウンセリングなど、全てに関わるインストラクターです。
+              </p>
+              <p class="px-3 pt-3">
+                STARS同様、海外アーティストの様に生まれ変わるまでのすべてをプロデュースします。
+              </p>
+            </div>
+            <div class="itemsModal__content--item3 mt-3">
+              <h3 class="text-white px-3 py-2 font-weight-bold h4 bg-dark">Works</h3>
+              <p class="px-3 pt-3">
+                講師養成、シンガー養成＆プロデュース、カホン、ボーカルプロデュース、ボイスデザイン、声帯調整、
+                技術調整、ボイストレーニング、アーティストマッサージ、ボーカルディレクレョン、歌唱カウンセリング、
+                作曲、作詞、コーラス、仮歌、新人発掘。
+              </p>
+            </div>
+            <div class="itemsModal__content--item4 mt-3">
+              <h3 class="text-white px-3 py-2 font-weight-bold h4 bg-dark">Favorites</h3>
+              <p class="px-3 pt-3">
+                Adam Lambert,Alicia Keys,Avril Lavigne,Babyface,Beyonce,Blue,Boyz ll Men,
+                Brian Mcknight,Brtney Spears,Celine Dion,Charlie Wilson,Chris Brown,
+                Christina Aguilera,Craig David,David Archuleta,Enrique lglesias,Eric Benet,
+                Karl Wolf,KC and JoJo,Kelly Clarkson,Latif,Michael Joseph Jackson,Mariah Carey,
+                Na-UL,N'sync,Ne-Yo,Norah Jones,NSYNC,O-Town,P!nk,Ruben Studdard,Savage Garden,
+                Westlife,EMI MARIA,Elliott Yamin,Katy Perry,Jay Sean,CheNelle,Justin Bieber,
+                Charice,Sweetbox,Diana Ross,Stevie Hoang,Tamia,Taylor Swift,Backstreet Boys,
+                Hanson,Whitney Houston,Raul Midon,Lady GaGa,BIGBANG,Superfly,Ms.OOJA,伊藤由奈,
+                福原美穂,AI
+              </p>
+            </div>
+            <div class="itemsModal__content--item5 mt-3">
+              <h3 class="text-white px-3 py-2 font-weight-bold h4 bg-dark">Hobby</h3>
+              <p class="px-3 pt-3">
+                ランニング、ウォーキング、お散歩、嫁とカフェ巡り、読書、映画、ショッピング、息子と遊ぶ。
+              </p>
+            </div>
+            <p class="text-right pt-5 pr-2 pb-3 text-primary closeModal">× 閉じる</p>
+          </div>
         </div>
-        <div class="mainMiddle__10__item3 mx-auto px-1">
-          <img src="image/HISAYO YOSHIDA 横長.jpg" alt="">
+        <!-- 講師紹介、プロフィール2 -->
+        <div class="mainMiddle__10__item2 mx-auto px-1 mb-3" id="partner2">
+          <img src="image/maeda.jpg" alt="" class="openModal">
         </div>
-        <div class="mainMiddle__10__item4 mx-auto px-1">
-          <img src="image/MEGUMI YOSHIDA 横長.jpg" alt="">
+        <!-- 講師紹介、プロフィール2、モーダル -->
+        <div id="" class="itemsModal mainMiddle__10__item2--modal text-left display-none">
+          <div class="itemsModal--bg closeModal"></div>
+          <div class="itemsModal__content px-1 ">
+            <h2>~ Profile ~</h2>
+            <img src="image/maeda.jpg" alt="">
+            <div class="itemsModal__content--item1 mt-3">
+              <h3 class="text-white px-3 py-2 font-weight-bold h4 bg-dark">Profile</h3>
+              <p class="px-3 pt-3">愛知県名古屋市出身 Ａ型</p>
+              <p class="px-3 pt-3">
+                中学３年生のとき、ダンスアーティストに憧れ、ダンスを始める。
+              </p>
+              <p class="px-3 pt-3">
+                高校進学後、名古屋アクターズスクールに所属、歌、ダンス、演技のレッスンを受け、
+                自分は歌とダンスでプロを目指すと決断、ダンススクールに通い、高校卒業後上京。
+              </p>
+              <p class="px-3 pt-3">
+                EXILEのATSUSHI、Deep(旧COLOR)のTAKAを輩出した学校の分校、
+                専門学校ESPパフォーマンスビレッジに入学。在学中、様々なレッスンを受け、イベントに出演。 
+                卒業後はダンスヴォーカルグループ「CUBE」としてイベントにゲスト出演、コンテスト優勝などを経験。
+                脱退後ソロで活動しながら洋楽ボイス理論を研究、現在に至る。
+              </p>
+              <p class="px-3 pt-3">
+                2016年11月より喉・技術調整師からボイスデザイナーに変更
+              </p>
+              <p class="px-3 pt-3">
+                ■ESP主催イベント「COLORS2006」「COLORS2007」ダンサー出演、
+                振付 (GUEST…COLOR、AAA、土屋アンナ、キンモクセイ）
+              </p>
+              <p class="px-3 pt-3">
+                ■L-VOKAL 「Step Up Feat.KREVA」 PV出演
+              </p>
+              <p class="px-3 pt-3">
+                ■中西圭三 LIVE IN KUZU 08' バックダンサー出演、振付　#Choo Choo Train、#Timing、etc# 
+              </p>
+              <p class="px-3 pt-3">
+                ■ ライブコンテスト「MELOTPIA」優勝（GUEST…CUBE)
+              </p>
+              <p class="px-3 pt-3">
+                ■ その他ダンススクール、フィットネスクラブにて講師として技術指導、レッスン
+              </p>
+            </div>
+            <div class="itemsModal__content--item2 mt-3">
+              <h3 class="text-white px-3 py-2 font-weight-bold h4 bg-dark">Voice Designerとは？</h3>
+              <p class="px-3 pt-3">
+                ボイスデザイナーとは、各ボーカリストが持つ「理想のアーティスト像」を理解し、
+                その為に必要な声や歌唱技術を診断・調整・提供を行うインストラクターです。
+              </p>
+              <p class="px-3 pt-3">
+                また、決められたセオリーを教えるだけでなく、その人に合っている声、歌唱法、スタイルを提案し、
+                デザインしてゆきます。
+              </p>
+            </div>
+            <div class="itemsModal__content--item3 mt-3">
+              <h3 class="text-white px-3 py-2 font-weight-bold h4 bg-dark">Works</h3>
+              <p class="px-3 pt-3">
+                喉・技術調整、ボイスデザイン、ボイストレーニング、ボーカルトレーニング、ダンス。
+              </p>
+            </div>
+            <div class="itemsModal__content--item4 mt-3">
+              <h3 class="text-white px-3 py-2 font-weight-bold h4 bg-dark">Favorites</h3>
+              <p class="px-3 pt-3">
+                Adam Lambert,B2K,Beyonce,Bruno Mars,Bobby Brown,Boyz 2 Men,Britney Spears,
+                Chris Brown,Craig David,Destiny's Child,Dirty Loops,Eve,Guy,Jamiroquai,
+                Janet Jackson,Jennifer Hudson,Justin Timberlake,Kelly Clarkson,NaS,Ne-Yo,
+                Mariah Carey,Michael Jackson,'NSYNC,Omarion,Whitney Houston,東方神起,BoA,少女時代,
+                DA PUMP,w-inds.米倉利紀,….
+              </p>
+            </div>
+            <div class="itemsModal__content--item5 mt-3">
+              <h3 class="text-white px-3 py-2 font-weight-bold h4 bg-dark">Hobby</h3>
+              <p class="px-3 pt-3">カフェでコーヒー、読書</p>
+            </div>
+            <div class="itemsModal__content--item1 mt-3">
+              <h3 class="text-white px-3 py-2 font-weight-bold h4 bg-dark">Message</h3>
+              <p class="px-3 pt-3">
+                僕は15歳の頃から、ダンスアーティストに憧れて、たくさんビデオに録画して擦り切れるまで見て、
+                歌や踊りの真似をしていました。
+              </p>
+              <p class="px-3 pt-3">
+                ですが録音した歌は、自分が思っていた以上に聴けるものではありませんでした。
+                なにかが違うのはわかりましたが、どう改善すればいいか、方法も手段もわかりませんでした。
+              </p>
+              <p class="px-3 pt-3">
+                養成所や専門学校、いろんなところでレッスンを受けましたが、いくらレッスンを受けて練習をしても、
+                声が大きくなるばかりで、抑揚感はもちろん、高い声も出せず、使える声区も少なく、
+                不自由さしかありませんでした。
+              </p>
+              <p class="px-3">「なぜこの人は高い声が楽に出せるのか？」</p>
+              <p class="px-3">「なぜこの人は自由に楽しそうに歌えているのか？」</p>
+              <p class="px-3">「自分は歌を歌うことが向いていないのか？」</p>
+              <p class="px-3 pt-3">
+                そんな疑問を常に持ち続けていた時に出会ったのが、「洋楽ボイス理論」に出会いました。
+              </p>
+              <p class="px-3 pt-3">
+                今までやったことがない訓練ばかりだったので、期待と同時に不安がありましたが、
+                次々に自分のやりたかったことができようになり、すぐにその不安はなくなりました。
+              </p>
+              <p class="px-3">「自分にあった訓練をしていなかった」</p>
+              <p class="px-3">「自由に歌えるようになる、なりたい自分になれる」</p>
+              <p class="px-3 pt-3">そう思いました。</p>
+              <p class="px-3 pt-3">
+                そして自分のやりたいことができるようになるたびに、「自分と同じように悩んでいる人達の力になりたい」
+                そう思うようになりました。
+              </p>
+              <p class="px-3 pt-3">
+                シンガーを目指している、海外アーティストのように歌いたい、自由に歌いたいと悩んでいる方。
+              </p>
+              <p class="px-3 pt-3">
+                ここはご自身の悩みを解決できる場所です。
+              </p>
+              <p class="px-3 pt-3">
+                悩みを解決して、なりたい自分になれるように、一緒に歩んで行きましょう！
+              </p>
+            </div>
+            <p class="text-right pt-5 pr-2 pb-3 text-primary closeModal">× 閉じる</p>
+          </div>
         </div>
-        <div class="mainMiddle__10__item5 mx-auto px-1">
-          <img src="image/chie.jpg" alt="">
+        <!-- 講師紹介、プロフィール3 -->
+        <div class="mainMiddle__10__item3 mx-auto px-1 mb-3" id="partner3">
+          <img src="image/HISAYO YOSHIDA 横長.jpg" alt="" class="openModal">
+        </div>
+        <!-- 講師紹介、プロフィール3、モーダル -->
+        <div id="" class="itemsModal mainMiddle__10__item3--modal text-left display-none">
+          <div class="itemsModal--bg closeModal"></div>
+          <div class="itemsModal__content px-1 ">
+            <h2>~ Profile ~</h2>
+            <img src="image/HISAYO YOSHIDA 横長.jpg" alt="">
+            <div class="itemsModal__content--item1 mt-3">
+              <h3 class="text-white px-3 py-2 font-weight-bold h4 bg-dark">Profile</h3>
+              <p class="px-3 pt-3">北海道室蘭市出身 B型</p>
+              <p class="px-3 pt-3">
+                小学校入学後に、ヴァイオリンを習い始め、6年ほど続けるも挫折。
+                中学高校の6年間で、ブラスバンド部でフルートを担当。
+                在学中に、公益社団法人日本吹奏楽指導者協会主催、全日本管打楽器ソロコンテストで3位入賞。
+              </p>
+              <p class="px-3 pt-3">
+                プロになることを考えた時期もあったが、大学でアカペラコーラスサークルに興味を持ち入部後、
+                歌を歌い始める。
+              </p>
+              <p class="px-3 pt-3">
+                就職後もアカペラ、コーラスでの活動をメインに、福祉施設やライブバーなどで演奏活動を行う。
+                2016年よりWORLD VOICEで学び始める。
+              </p>
+            </div>
+            <div class="itemsModal__content--item2 mt-3">
+              <h3 class="text-white px-3 py-2 font-weight-bold h4 bg-dark">Internsとは？</h3>
+              <p class="px-3 pt-3">
+                インターン講師とは、何年も克服できなかった悩みを、日山式『洋楽ボイス理論』で、
+                シンガーとして夢描いていた姿へと変貌を遂げた体現者がインターン講師です。
+              </p>
+              <p class="px-3 pt-3">
+                このインターン講師が講師と共に代表日山たかしの意思を引き継ぎ夢を叶えるシンガーの援助をすべく講師として、
+                そしてシンガーとしても尚、日々トレーニングを積んでいます。
+              </p>
+              <p class="px-3 pt-3">
+                過去の悩み、経験が、同じ悩みを持ったシンガーさんに役立てられるように。
+              </p>
+            </div>
+            <div class="itemsModal__content--item3 mt-3">
+              <h3 class="text-white px-3 py-2 font-weight-bold h4 bg-dark">Works</h3>
+              <p class="px-3 pt-3">喉・技術調整、ボイストレーニング、ボーカルトレーニング</p>
+            </div>
+            <div class="itemsModal__content--item4 mt-3">
+              <h3 class="text-white px-3 py-2 font-weight-bold h4 bg-dark">Favorites</h3>
+              <p class="px-3 pt-3">
+                Lara Fabian, Mariah Carey, Whitney Houston, ZAZ, 朱里エイコ,髙橋真梨子,ちあきなお
+              </p>
+            </div>
+            <div class="itemsModal__content--item5 mt-3">
+              <h3 class="text-white px-3 py-2 font-weight-bold h4 bg-dark">Hobby</h3>
+              <p class="px-3 pt-3">映画、カフェ</p>
+            </div>
+            <div class="itemsModal__content--item6 mt-3">
+              <h3 class="text-white px-3 py-2 font-weight-bold h4 bg-dark">Message</h3>
+              <p class="px-3 pt-3">みなさん、こんにちは！吉田尚世です。</p>
+              <p class="px-3 pt-3">
+                私が最初に歌に興味を持ったのは中学生の時です。ただの遠い憧れからはじまりましたが、
+                そこから何年もの長い長い道のりを経て、今はそのアーティストの曲を自分なりに自由に歌ったり、
+                ご本人がどのような技術を使っているかを考察するまでになりました。別人のように変化した自分に、
+                自分でも本当に驚いています。
+              </p>
+              <p class="px-3 pt-3">
+                当時私が抱えていた悩みは、高音域が出ない、強引に出しても張り叫ぶような鋭い声しか出せない、
+                声が枯れる、歌える曲調が限られる、フェイクができない、などです。歌を始めて以降、
+                何人かのボーカルコーチの方にレッスンを受けましたが、解決することができませんでした。
+                人それぞれ、見た目や身長が違うように、歌う技術にも個体差があるのでは？だとすると、
+                解決できなくても仕方ないのではないか？と思うようになっていました。
+              </p>
+              <p class="px-3 pt-3">
+                ですが、その後、WORLD VOICEの洋楽ボイス理論に触れ、
+                「自分の抱える問題の原因を分析•解明し、それをピンポイントで潰す正しいトレーニングを継続すれば、
+                解決ができる」ということを知ることができました。
+                そして実際に解決に至りました！！！過去に受けていたトレーニングが対症療法だとすると、
+                WORLD VOICE で出会ったトレーニングは原因療法と言えると思います。
+                喉の負担というフィジカルな課題を解決できたことによって、
+                リズムや抑揚などの本当の意味での音楽的な課題に取り組めるようになった事が私の1番の喜びです。
+              </p>
+              <p class="px-3 pt-3">
+                かつての私のように、何年も悩みを解決できない方や、
+                個体差によって歌のスキルはあらかじめ決まっているのではと感じている方へ、
+                私自身のこれまでの経験と学びを活かし、お手伝いができればと思っています。
+              </p>
+            </div>
+            <p class="text-right pt-5 pr-2 pb-3 text-primary closeModal">× 閉じる</p>
+          </div>
+        </div>
+        <!-- 講師紹介、プロフィール4 -->
+        <div class="mainMiddle__10__item4 mx-auto px-1 mb-3" id="partner4">
+          <img src="image/MEGUMI YOSHIDA 横長.jpg" alt="" class="openModal">
+        </div>
+        <!-- 講師紹介、プロフィール4、モーダル -->
+        <div id="" class="itemsModal mainMiddle__10__item4--modal text-left display-none">
+          <div class="itemsModal--bg closeModal"></div>
+          <div class="itemsModal__content px-1 ">
+            <h2>~ Profile ~</h2>
+            <img src="image/MEGUMI YOSHIDA 横長.jpg" alt="">
+            <div class="itemsModal__content--item1 mt-3">
+              <h3 class="text-white px-3 py-2 font-weight-bold h4 bg-dark">Profile</h3>
+              <p class="px-3 pt-3">岩手県出身 Ａ型</p>
+              <p class="px-3 pt-3">
+                １７歳、岩手めんこいTV主催高校生カラオケ大会で2位。
+              </p>
+              <p class="px-3">
+                １８歳、テレビ岩手主催岩手県カラオケ大会で1位。
+              </p>
+              <p class="px-3 pt-3">
+                その後、19歳で上京後、都内ライブハウスやクラブで歌い始め、 仮歌や、着うたの仕事を開始。
+                平成19年、三味線奏者上妻宏光氏のバックミュージシャンとして活動していた西沢正明氏と出会い、
+                三味線をフューチャーしたバンド『PRIME』を結成。
+              </p>
+              <p class="px-3 pt-3">
+                サッカーの中村俊輔選手の応援歌アルバムに参加。 
+                イングランドでCD発売と同時に当時のスポーツ番組にも起用される。
+              </p>
+              <p class="px-3 pt-3">
+                また、ソロとしてMichael Jackson没後の追討トリビュートコンサートに参加し、
+                平成22年大阪で開催された『WHO IS IT』で実際のMJバ ックミュージシャンである、
+                M.プレジャー、ケンステイシーらと共演。『ERTH SONG』を日本人シンガーとしてソロ歌唱。
+              </p>
+              <p class="px-3 pt-3">
+                翌年の『アノヒヲワスレナイ神戸2011』マイケルジャクソントリビュー トでも、
+                日本のメジャーシンガーと共に共演し、おなじく『ERTH SONG』をソロで担当。
+              </p>
+              <p class="px-3 pt-3">
+                その後、バンドから脱退し、現在はVo.Sax.Key.Drからなる大人女子バンド『RagTag』を結成。
+                1stミニアルバム＜RagTag＞、ミュージックカード＜The sharin song>を発売。
+              </p>
+              <p class="px-3 pt-3">
+                2019年日本文化を海外へをコンセプトにフランス行きをかけ出場したJapan Expo Rocksでは準優勝。
+                LIVE活動はじめ企業パーティーなどのクローズイベントで活動中。
+              </p>
+            </div>
+            <div class="itemsModal__content--item2 mt-3">
+              <h3 class="text-white px-3 py-2 font-weight-bold h4 bg-dark">Internsとは？</h3>
+              <p class="px-3 pt-3">
+                インターン講師とは、何年も克服できなかった悩みを、日山式『洋楽ボイス理論』で、
+                シンガーとして夢描いていた姿へと変貌を遂げた体現者がインターン講師です。
+              </p>
+              <p class="px-3 pt-3">
+                このインターン講師が講師と共に代表日山たかしの意思を引き継ぎ夢を叶えるシンガーの援助をすべく講師として、
+                そしてシンガーとしても尚、日々トレーニングを積んでいます。
+              </p>
+              <p class="px-3 pt-3">
+                過去の悩み、経験が、同じ悩みを持ったシンガーさんに役立てられるように。
+              </p>
+            </div>
+            <div class="itemsModal__content--item3 mt-3">
+              <h3 class="text-white px-3 py-2 font-weight-bold h4 bg-dark">Works</h3>
+              <p class="px-3 pt-3">喉・技術調整、ボイストレーニング、ボーカルトレーニング</p>
+            </div>
+            <div class="itemsModal__content--item4 mt-3">
+              <h3 class="text-white px-3 py-2 font-weight-bold h4 bg-dark">Favorites</h3>
+              <p class="px-3 pt-3">
+                Aretha Franklin,Michael Jackson,Stevie Wonder,Ray Charles,Minnie Riperton,
+                Erykah Badu,TLC,Mary Jane Blige,Peabo Bryson,Brand New Heavies,Vanessa Williams,
+                Mariah Carey,Alicia Keys,Amy Winehouse,Jessie J,Des’ree,Oasis,Ed Sheeran,
+                Bruno Mars,Ne-yo,Red Hot Chili Peppers,Mroon5,中島みゆき,玉置浩二,松任谷由実,宇多田ヒカル,
+                椎名林檎,福原美穂,さかいゆう,Jazztonic,SOIL&”PIMP”SESSIONS
+              </p>
+            </div>
+            <div class="itemsModal__content--item5 mt-3">
+              <h3 class="text-white px-3 py-2 font-weight-bold h4 bg-dark">Hobby</h3>
+              <p class="px-3 pt-3">ドラマ鑑賞(日本、海外どっちも好き)</p>
+            </div>
+            <div class="itemsModal__content--item6 mt-3">
+              <h3 class="text-white px-3 py-2 font-weight-bold h4 bg-dark">Message</h3>
+              <p class="px-3 pt-3">みなさん初めまして！</p>
+              <p class="px-3 pt-3">
+                このHPをご覧になっているということは、歌唱に関して何か物足りなさや、不安、
+                悩みなどを持っているからと思います。
+              </p>
+              <p class="px-3 pt-3">
+                私も数多くの悩みを持つ一人でした。
+                その悩みを解消するべく色々なボイトレスクールに通いポップス、クラシック、Jazz、
+                様々なジャンルを専門とするインストラクターさんに出会いトレーニングを積んできました。
+                しかしある一定時期から、今まで教わってきたことだけでは対応できない悩みにぶつかり、
+                どうしたら良いのだろうかと悩んでいた時にこのWOLD VOICEに出会いました。
+              </p>
+              <p class="px-3 pt-3">
+                実際にレッスンを受けてみると、ずっと悩んでいたことが え？これだけで？というくらい解決し、
+                感動と共に驚きでした。しかし、
+                この洋楽ボイス理論は研究に研究を重ねて構築されたしっかりとした根拠のあるものだと知り納得しました。
+              </p>
+              <p class="px-3 pt-3">
+                今、このHPを見ながら悩んでいるシンガーの皆さん、
+                ぜひ勇気を持ってカウンセリングにいらしてみてください！
+                その勇気の先に今よりももっともっと歌を楽しめるあなたになっているはずです。
+                全力であなたとの悩みと向き合いサポートしていきます！
+              </p>
+            </div>
+            <p class="text-right pt-5 pr-2 pb-3 text-primary closeModal">× 閉じる</p>
+          </div>
+        </div>
+        <!-- 講師紹介、プロフィール5 -->
+        <div class="mainMiddle__10__item5 mx-auto px-1 mb-3" id="partner5">
+          <img src="image/chie.jpg" alt="" class="openModal">
+        </div>
+        <!-- 講師紹介、プロフィール5、モーダル -->
+        <div id="" class="itemsModal mainMiddle__10__item5--modal text-left display-none">
+          <div class="itemsModal--bg closeModal"></div>
+          <div class="itemsModal__content px-1 ">
+            <h2>~ Profile ~</h2>
+            <img src="image/chie.jpg" alt="">
+            <div class="itemsModal__content--item1 mt-3">
+              <h3 class="text-white px-3 py-2 font-weight-bold h4 bg-dark">Profile</h3>
+              <p class="px-3 pt-3">北海道函館市出身 A型</p>
+              <p class="px-3 pt-3">
+                北海道函館市出身。英語を身に着けたいと強く願い、大好きだったふるさとを離れる。
+              </p>
+              <p class="px-3 pt-3">
+                2000年 渡米
+              </p>
+              <p class="px-3">
+                2002年 ロサンゼルス・シティー・カレッジ入学
+              </p>
+              <p class="px-3">
+                2004年 ロサンゼルス・シティー・カレッジスペイン語科卒業
+              </p>
+              <p class="px-3 pt-3">
+                卒業後でのアメリカ滞在中は、レストランでの勤務やベビーシッターを経験し、生きた英語を学ぶ。              </p>
+              <p class="px-3 pt-3">
+                帰国後は、その語学力を生かし旅行会社や貿易関係の仕事に携わりながら、
+                メジャーアーティストを輩出しているボーカルスクールにて歌唱技術を学ぶ。洋楽カバーなどで積極的にライブ活動を行う傍ら、ラジオパーソナリティー、読者モデル、広告モデルとしても幅広く活動。
+              </p>
+              <p class="px-3 pt-3">
+                第一子出産後、育児をきっかけに、育児についての英会話にも興味を持ち、
+                保育英語検定2級を取得(2011年時点最高2級)歌唱における英語の発音の大切さを丁寧に教え、
+                アットホームな優しさあふれる人柄には男女問わず定評がある。
+              </p>
+            </div>
+            <div class="itemsModal__content--item2 mt-3">
+              <h3 class="text-white px-3 py-2 font-weight-bold h4 bg-dark">Internsとは？</h3>
+              <p class="px-3 pt-3">
+                インターン講師とは、何年も克服できなかった悩みを、日山式『洋楽ボイス理論』で、
+                シンガーとして夢描いていた姿へと変貌を遂げた体現者がインターン講師です。
+              </p>
+              <p class="px-3 pt-3">
+                このインターン講師が講師と共に代表日山たかしの意思を引き継ぎ夢を叶えるシンガーの援助をすべく講師として、
+                そしてシンガーとしても尚、日々トレーニングを積んでいます。
+              </p>
+              <p class="px-3 pt-3">
+                過去の悩み、経験が、同じ悩みを持ったシンガーさんに役立てられるように。
+              </p>
+            </div>
+            <div class="itemsModal__content--item3 mt-3">
+              <h3 class="text-white px-3 py-2 font-weight-bold h4 bg-dark">Works</h3>
+              <p class="px-3 pt-3">英詩発音矯正、滑舌矯正、メイクアップアドバイザー</p>
+            </div>
+            <div class="itemsModal__content--item4 mt-3">
+              <h3 class="text-white px-3 py-2 font-weight-bold h4 bg-dark">Favorites</h3>
+              <p class="px-3 pt-3">
+                Alicia Keys,Avril Lavigne,Babyface,Beyonce,Blue,Boyz ll Men,Brian Mcknight,
+                Brtney Spears,Celine Dion, Charlie Wilson,Christina Aguilera,Craig David,Eric Benet,
+                Kelly Clarkson, Michael Joseph Jackson,Mariah Carey,N'sync,Norah Jones,NSYNC, 
+                O-Town,Ruben Studdard,Savage Garden,Westlife,Elliott Yamin,Katy Perry, Jay Sean,
+                CheNelle,Justin Bieber,Charice,Sweetbox,Diana Ross,Stevie Hoang,Tamia,Taylor Swift,
+                Backstreet Boys, Hanson,Whitney Houston,Raul Midon, Lady GaGa,福原美穂
+              </p>
+            </div>
+            <div class="itemsModal__content--item5 mt-3">
+              <h3 class="text-white px-3 py-2 font-weight-bold h4 bg-dark">Hobby</h3>
+              <p class="px-3 pt-3">カフェ、ヨガ、ショッピング、読書、映画鑑賞、雑貨集め、食べること</p>
+            </div>
+            <div class="itemsModal__content--item6 mt-3">
+              <h3 class="text-white px-3 py-2 font-weight-bold h4 bg-dark">Message</h3>
+              <p class="px-3 pt-3">はじめまして！英詞発音矯正師のchieと申します。</p>
+              <p class="px-3">自分自身が歌った楽曲を聞いて、「声も楽曲もパーフェクト！なのに…英語の発音が…」</p>
+              <p class="px-3">と感じたことはありませんか？</p>
+              <p class="px-3 pt-3">
+                英語を始めるなら、小さければ小さい内の方が理想的！と言われていますよね。それは何故か。
+              </p>
+              <p class="px-3">
+                簡単に言うと、小さい内から英語を始めた場合、脳内で日本語と英語の処理をする場所が二ヶ所できるのに対して、
+                ある程度成長してからの場合だと、日本語と英語は同一ヶ所で処理されてしまうんです。
+              </p>
+              <p class="px-3">
+                コンピューターと同じ様に、スペックが大きければ処理速度もあがりますし、
+                小さければ処理速度は遅くなりますよね。それと同じ仕組みと考えて下さい。
+              </p>
+              <p class="px-3">
+                つまり、大人になった皆さんがネイティブの様な発音で歌い上げるには、カナリの努力が必要なんです。
+                私のお仕事は、そんな皆さんの発音を限りなくネイティブに近づけるためのお手伝いです。
+              </p>
+              <p class="px-3 pt-3">
+                私自身、英語を本格的に始めたのは18歳以降です。話せない悔しさをバネに、必死で勉強し、
+                寝る間も惜しんで英語に自ら触れていきました。その努力が今の自分を作ってくれています。
+              </p>
+              <p class="px-3 pt-3">
+                「本人の努力」＋「情熱」で発音はものにすることが可能です！英詞の発音に自信のないそこのあなた！
+                一歩づつ、一緒にネイティブに近づいてみませんか？
+              </p>
+              <p class="px-3">
+                英詞発音も、ボイストレーニングの一つです！
+              </p>
+              <p class="px-3">
+                また、私はメイクアップセッションのインスタラクターも兼任しております。
+              </p>
+              <p class="px-3">
+                ステージでベストな自分を表現する為に、あなたが一番キラキラ輝き、より魅力的に見えるように、
+              </p>
+              <p class="px-3">
+                ステージメイクで変身させます！
+              </p>
+              <p class="px-3 pt-3">
+                英語もメイクも、まだあなたの中に隠れている「あなたのベスト」を一緒に見つけていきましょう。
+              </p>
+            </div>
+            <p class="text-right pt-5 pr-2 pb-3 text-primary closeModal">× 閉じる</p>
+          </div>
         </div>
       </div>
-
-
+      <div class="mainMiddle__11">
+        <h2>~ MOVIES ~</h2>
+        <div class="text-center">
+          <p>WORLD VOICEの活動や解説動画をYoutubeに上げています。</p>
+          <p>あなたの成長のヒント、励みに慣れば幸いです。</p>
+          <p>是非チャンネル登録をお願いします。</p>
+        </div>
+        <div>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/H99Ne7VB36c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/SebTtIrHKnE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/7LU5d_V7uTA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/Ywmkw1_BXsQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/tNkglb3TZNg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        
+      </div>
     </div>
-    
-
+    <!-- フッター -->
     <footer class="mt-5">
       <div class="footer__top d-flex justify-content-between col-11 mx-auto py-5">
         <div class="footer__top__1">
@@ -353,19 +880,19 @@
           <h3>講師紹介</h3>
           <ul>
             <li>
-              <a href="">日山 たかし</a>
+              <a href="#partner1">日山 たかし</a>
             </li>
             <li>
-              <a href="">前田 吏幟</a>
+              <a href="#partner2">前田 吏幟</a>
             </li>
             <li>
-              <a href="">吉田 尚世</a>
+              <a href="#partner3">吉田 尚世</a>
             </li>
             <li>
-              <a href="">吉田 めぐみ</a>
+              <a href="#partner4">吉田 めぐみ</a>
             </li>
             <li>
-              <a href="">Chie Hidaka</a>
+              <a href="#partner5">Chie Hidaka</a>
             </li>
             <li>
               <a href="">過去養成メンバー</a>
