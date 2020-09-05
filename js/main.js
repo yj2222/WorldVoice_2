@@ -37,7 +37,7 @@ $(function(){
   var item_number;
 
   $(modal_open).on('click',function(){
-    item_number = $("." + ($(this).parent().attr("class").split(/\s+/)[0]) + "--modal");
+    item_number = $("." + ($(this).parent().attr("class").split(/\s+/)[1]) + "--modal");
     console.log(item_number)
     item_number.removeClass("display-none");
     
